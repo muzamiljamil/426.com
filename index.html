@@ -8,27 +8,7 @@
 
     <title>Results</title>
 
-    <script language="javascript">
-        function Clickheretoprint() {
-            var disp_setting = "toolbar=no,location=no,directories=no,menubar=no,";
-            disp_setting += "scrollbars=yes,width=650, height=600, left=100, top=25";
-            var content_vlue = document.getElementById("print_content").innerHTML;
-
-
-            content_vlue += "<br  /><br  />" + document.getElementById("copy").innerHTML;
-
-            var docprint = window.open("", "", disp_setting);
-            docprint.document.open();
-            docprint.document.write('<html><head><link rel="stylesheet" type="text/css" href="css/style.css" /><title></title>');
-            docprint.document.write('</head><body onLoad="self.print()"><center>');
-            docprint.document.write('<span align="center" class="heading"><strong></strong></span><br />');
-            docprint.document.write(content_vlue);
-            docprint.document.write('</center></body></html>');
-            docprint.document.close();
-            docprint.focus();
-        }
-
-    </script>
+    
 
 </head>
 
@@ -232,13 +212,9 @@
 
                     </div>
                     <table width="100%">
+                       
                         <tr>
-                            <td height="30" align="right" valign="bottom" style="padding-right: 25px;">
-
-                                <input type="button" name="button" value="Print Result" onclick="javascript: Clickheretoprint()" class="button"></td>
-                        </tr>
-                        <tr>
-                            <td height="28" align="center" class="blackText">&nbsp;</td>
+                            <td height="28" align="center" class="blackText">126885688</td>
                         </tr>
                         <tr>
                             <td align="center" class="blackText">
